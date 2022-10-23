@@ -1,0 +1,45 @@
+2020-07-28 15:48:59.534 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-07-28 15:48:59.581 -03:00 [DBG] Using Identity.Application as default scheme for authentication
+2020-07-28 15:48:59.584 -03:00 [DBG] Using Identity.External as default scheme for sign-in
+2020-07-28 15:48:59.584 -03:00 [DBG] Using Identity.External as default scheme for sign-out
+2020-07-28 15:48:59.584 -03:00 [DBG] Using Identity.Application as default scheme for challenge
+2020-07-28 15:48:59.584 -03:00 [DBG] Using Identity.Application as default scheme for forbid
+2020-07-28 16:53:15.948 -03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-07-28 16:53:16.049 -03:00 [DBG] Using Identity.Application as default scheme for authentication
+2020-07-28 16:53:16.054 -03:00 [DBG] Using Identity.External as default scheme for sign-in
+2020-07-28 16:53:16.054 -03:00 [DBG] Using Identity.External as default scheme for sign-out
+2020-07-28 16:53:16.055 -03:00 [DBG] Using Identity.Application as default scheme for challenge
+2020-07-28 16:53:16.055 -03:00 [DBG] Using Identity.Application as default scheme for forbid
+2020-07-28 16:53:19.401 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 16:53:19.455 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 16:55:40.632 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 16:55:40.643 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 16:55:40.761 -03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2020-07-28 16:55:40.777 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 16:55:40.779 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 17:09:08.170 -03:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-07-28 17:09:08.171 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 17:09:08.173 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 17:09:10.432 -03:00 [DBG] Augmenting SignInContext
+2020-07-28 17:09:10.435 -03:00 [DBG] Adding idp claim with value: local
+2020-07-28 17:09:10.435 -03:00 [DBG] Adding amr claim with value: pwd
+2020-07-28 17:09:10.436 -03:00 [DBG] Adding auth_time claim with value: 1595966950
+2020-07-28 17:09:10.442 -03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2020-07-28 17:09:10.487 -03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-07-28 17:09:10.620 -03:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "b878c2f3-75b6-4865-b4b9-74599c79668e",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HM1J5VFKMAV0:00000001",
+  "TimeStamp": "2020-07-28T20:09:10Z",
+  "ProcessId": 16972,
+  "LocalIpAddress": "127.0.0.1:10643",
+  "RemoteIpAddress": "::1"
+}
+2020-07-28 17:09:10.666 -03:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
+2020-07-28 17:09:10.671 -03:00 [INF] AuthenticationScheme: Identity.Application was successfully authenticated.
